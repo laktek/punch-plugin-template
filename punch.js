@@ -4,7 +4,7 @@ exports.description = 'Create a Punch plugin, including Jasmine specs.';
 // Template-specific notes to be displayed before question prompts.
 exports.notes = '_Project name_ should start with "punch" and should contain ' +
   'the type of plugin (compiler, generator, etc.).' +
-	'Provide a human readable _Project title_.';
+	'Provide a human readable _Project title_ .';
 
 // Any existing file or directory matching this wildcard will cause a warning.
 exports.warnOn = '*';
