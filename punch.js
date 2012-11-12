@@ -2,9 +2,9 @@
 exports.description = 'Create a Punch plugin, including Jasmine specs.';
 
 // Template-specific notes to be displayed before question prompts.
-exports.notes = '_Project name_ should start with "punch" and must include ' +
-	'the type of plugin (compiler, generator, etc.). Words must be seperated ' +
-	'with dashes. _Project name_ should not already in use at search.npmjs.org.';
+exports.notes = '_Project name_ should start with "punch" and should contain ' +
+  'the type of plugin (compiler, generator, etc.).' +
+	'Provide a human readable _Project title_.';
 
 // Any existing file or directory matching this wildcard will cause a warning.
 exports.warnOn = '*';
@@ -14,7 +14,15 @@ exports.template = function(grunt, init, done) {
 
   grunt.helper('prompt', {type: 'punch'}, [
     // Prompt for these values.
-    grunt.helper('prompt_for', 'name'),
+    grunt.helper('prompt_for', 'name', function(value, data, done) {
+			if (value.indexOf('punch') < 0) {
+				value = "punch-" + value
+			}
+      done(null, value);
+    }),
+		grunt.helper('prompt_for', 'title', function(value, data, done) {
+      done(null, value);
+    }),
     grunt.helper('prompt_for', 'description'),
     grunt.helper('prompt_for', 'version'),
     grunt.helper('prompt_for', 'repository'),
