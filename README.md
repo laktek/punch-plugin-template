@@ -4,4 +4,3 @@
 * Copy both `punch.js` file and `punch` directory to `~/.grunt/tasks/init`.
 * Then, to create a new plugin run: `grunt init:punch`
 * Answer the prompted questions.
-

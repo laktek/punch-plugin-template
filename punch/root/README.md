@@ -2,6 +2,10 @@
 
 {%= description %}
 
+## What is Punch?
+
+[Punch](http://laktek.github.com/punch) is a framework for creating, managing and publishing web sites. 
+
 ## How to Use 
 
 * Install the package
