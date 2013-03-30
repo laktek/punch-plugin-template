@@ -1,4 +1,4 @@
-**Clone and customize this project template to create your Punch plugins**
+**Fork, clone and customize this project template to create your Punch plugins**
 
 # {Plugin Name} for Punch 
 
