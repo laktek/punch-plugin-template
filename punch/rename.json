@@ -1,4 +1,0 @@
-{
-  "lib/name.js": "lib/{%= name %}.js",
-  "spec/name.spec.js": "spec/{%= name %}.spec.js"
-}

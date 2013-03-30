@@ -1,6 +1,24 @@
-# Grunt template for creating Punch plugins
+**Clone and customize this project template to create your Punch plugins**
 
-* Install grunt - `npm install -g grunt`
-* Copy both `punch.js` file and `punch` directory to `~/.grunt/tasks/init`.
-* Then, to create a new plugin run: `grunt init:punch`
-* Answer the prompted questions.
+# {Plugin Name} for Punch 
+
+{Describe what plugin does.}
+
+### How to Use 
+
+* Install the package
+	
+		npm install {npm-package-name}
+
+* Open your Punch project's configurations (`config.json`) and add the following:
+
+		"plugins": {
+
+			"{section}": {
+				".css": "{npm-package-name}" 
+			}
+
+		}
+
+* {Any additonal instructions}
+
