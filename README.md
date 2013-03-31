@@ -22,6 +22,6 @@
 
 ## License
 
-Copyright (c) 2012 {your name}
+Copyright (c) {year} {your name}
 Licensed under the MIT license.
 
