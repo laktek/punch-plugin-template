@@ -18,7 +18,7 @@
   },
   "main": "./lib/{main-file}.js",
   "dependencies": {
-    "punch" : ">= X.X.X",
+    "punch" : ">= X.X.X"
   },
   "devDependencies": {
     "jasmine-node": ">= 1.0.26",
