@@ -14,9 +14,7 @@
 
 		"plugins": {
 
-			"{section}": {
-				".css": "{npm-package-name}" 
-			}
+			"{section}": "{npm-package-name}"
 
 		}
 
